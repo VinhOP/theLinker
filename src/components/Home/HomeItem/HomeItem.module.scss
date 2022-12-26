@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    //justify-content: center;
+    margin-bottom: 12px;
+}
+
+.video-player {
+    margin-right: 20px;
+}
+
+.video {
+    width: 340px;
+    height: 200px;
+    border: none;
+}
+
+.title {
+    color: red;
+
+}
+
+.description {
+    min-height: 100px;
+    line-height: 2.2rem;
+    white-space: pre-wrap;
+}
+
+.like-section {
+    margin-top: 4px;
+    font-size: 2rem;
+    
+    .icon {
+        margin-right: 6px;
+        cursor: pointer;
+    }
+}
+

@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+ import './App.css';
+import DefaultLayout from './layout/DefaultLayout';
+import Home from './components/Home';
+import { useModal } from './Context/ModalContext';
+import Modal from './components/Modal';
 
 function App() {
+
+  const modal = useModal()
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {modal.showModal && <Modal />}
+      <DefaultLayout> 
+        <Home />  
+      </DefaultLayout>
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.wrapper {
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column-reverse;
+}

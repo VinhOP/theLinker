@@ -1,0 +1,71 @@
+.wrapper {
+    align-items: center;
+    height: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    //background-color: red;
+}
+
+
+.right-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.error-message {
+    position: absolute;
+    bottom: -20px;
+    //text-align: center;
+    font-size: 1.4rem;
+    color: red;
+}
+
+.title {
+    font-size: 28px;
+    margin-left: 6px;
+    color: red;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-section {
+    width: 200px;
+    display: flex;
+}
+
+.action {
+    &:not(:last-child) {
+        margin-right: 6px;
+    }
+}
+
+.button {
+    width: 60px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.login-register-btn {
+}
+
+.share-btn {
+    margin-right: 4px;
+}
+
+.input {
+    padding: 4px;
+
+}

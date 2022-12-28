@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/theLinker/static/css/main.70231085.css",
+    "main.js": "/theLinker/static/js/main.1de57574.js",
+    "static/js/787.412fdcec.chunk.js": "/theLinker/static/js/787.412fdcec.chunk.js",
+    "index.html": "/theLinker/index.html",
+    "main.70231085.css.map": "/theLinker/static/css/main.70231085.css.map",
+    "main.1de57574.js.map": "/theLinker/static/js/main.1de57574.js.map",
+    "787.412fdcec.chunk.js.map": "/theLinker/static/js/787.412fdcec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70231085.css",
+    "static/js/main.1de57574.js"
+  ]
+}
